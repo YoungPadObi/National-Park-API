@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(139, 11, 165);
+    color: rgb(8, 4, 8);
+  }
+  
+  button, input[type="text"] {
+    padding: 5px;
+    
+  }
+
+  a {
+    color: rgb(8, 4, 8);
+  }
+
+  a:hover {
+    color: white;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .error-message {
+      color: red;
+  }
+  
+  .hidden {
+    display: none;
+  }
